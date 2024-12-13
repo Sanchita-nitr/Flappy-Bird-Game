@@ -52,7 +52,7 @@ window.onload = function () {
     birdImg.src = "./Flappy_bird.png";
 
     birdImgDie = new Image();
-    birdImgDie.src = "./DieFlappybird.png";
+    birdImgDie.src = "./unnamed.png";
 
     birdImg.onload = function () {
         context.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
