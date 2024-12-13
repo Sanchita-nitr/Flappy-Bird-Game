@@ -180,7 +180,6 @@ function moveBird(e) {
         if (gameOver) {
             bird.y = birdY;
             pipeArray = [];
-            score = 0;
             gameOver = false;
         }
     }
