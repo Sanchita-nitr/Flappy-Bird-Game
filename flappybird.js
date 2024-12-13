@@ -8,7 +8,7 @@ let context;
 let birdWidth = 80;
 let birdHeight = 50;
 let birdX = boardWidth / 3 ;
-let birdY = boardHeight / 5 ;
+let birdY = boardHeight / 10 ;
 let birdImg;
 let birdImgDie;
 
