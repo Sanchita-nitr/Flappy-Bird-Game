@@ -91,7 +91,7 @@ function update() {
             window.location.href = "Highscore.html";
             showHighScorePage();
 
-        }, 0);
+        }, 10);
 
         return;
     }
