@@ -6,17 +6,13 @@
         <div class="HighScore">
             <p>High Score : <span id="highScore"></span></p>
             <p>Score : <span id="Score"></span></p>
-            
-            </div>
-<div class="button">
-    <button type="button"> <a href="Game.html"> Start Again</a> </button>
-</div>
-<script>
-    document.getElementById('highScore').innerText = localStorage.getItem('highScore') || 'No high score yet';
-    document.getElementById('score').innerText = localStorage.getItem('score') || 'No Score Obtained';
-    
-    
-</script>
-        
+        </div>
+        <div class="button">
+            <button type="button"> <a href="Game.html"> Start Again</a> </button>
+        </div>
+        <script>
+            document.getElementById('highScore').innerText = localStorage.getItem('highScore') || 'No high score yet';
+            document.getElementById('Score').innerText = localStorage.getItem('score') || 'No Score Obtained';
+        </script>
     </body>
 </html>

@@ -83,10 +83,11 @@ function update() {
         if (score > localStorage.getItem('highScore')) {
             localStorage.setItem('highScore', score);
         }
-         if (score == localStorage.getItem('score')) {
-          localStorage.setItem('score', score);
+        
+        if (score > localStorage.getItem('score')) {
+            localStorage.setItem('score', score);
         }
-
+        
         setTimeout(function () {
             window.location.href = "Highscore.html";
             showHighScorePage();
@@ -199,7 +200,6 @@ function movebirdbytouchstart(e){
     if (gameOver) {
         bird.y = birdY;
         pipeArray = [];
-        score = 0;
         gameOver = false;
     }
 }
