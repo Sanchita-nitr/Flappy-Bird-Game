@@ -83,15 +83,15 @@ function update() {
         if (score > localStorage.getItem('highScore')) {
             localStorage.setItem('highScore', score);
         }
-         if (score == localStorage.getItem('Score')) {
-          localStorage.setItem('Score', score);
+         if (score == localStorage.getItem('score')) {
+          localStorage.setItem('score', score);
         }
 
         setTimeout(function () {
             window.location.href = "Highscore.html";
             showHighScorePage();
 
-        }, 20);
+        }, 10);
 
         return;
     }
